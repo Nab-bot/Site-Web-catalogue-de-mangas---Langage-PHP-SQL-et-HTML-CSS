@@ -11,49 +11,50 @@ Il propose un catalogue de mangas, un système d’authentification, un espace u
 Le site est conçu pour être exécuté en local.
 
 2. Fonctionnalités
-Fonctionnalités ouvertes à tous
+   
+Fonctionnalités ouvertes à tous :
 
-Accueil avec présentation du site et barre de recherche
+-Accueil avec présentation du site et barre de recherche
 
-Consultation du catalogue de mangas
+-Consultation du catalogue de mangas
 
-Recherche par titre, genre, type ou auteur
+-Recherche par titre, genre, type ou auteur
 
-Accès aux fiches mangas détaillées
+-Accès aux fiches mangas détaillées
 
-Mode clair / sombre stocké en session
+-Mode clair / sombre stocké en session
 
-Espace utilisateur
+Espace utilisateur :
 
-Création de compte
+-Création de compte
 
-Connexion et déconnexion
+-Connexion et déconnexion
 
-Gestion du catalogue personnel
+-Gestion du catalogue personnel
 
-Ajout d’un manga depuis le catalogue
+-Ajout d’un manga depuis le catalogue
 
-Mise à jour du chapitre en cours
+-Mise à jour du chapitre en cours
 
-Suppression d’un manga du catalogue
+-Suppression d’un manga du catalogue
 
-Espace administrateur
+Espace administrateur :
 
-Gestion des utilisateurs (promotion, rétrogradation, suppression)
+-Gestion des utilisateurs (promotion, rétrogradation, suppression)
 
-Ajout d’un manga avec informations détaillées
+-Ajout d’un manga avec informations détaillées
 
-Association d’auteurs, genres, types, statuts et éditeurs
+-Association d’auteurs, genres, types, statuts et éditeurs
 
-Ajout d’images (jusqu’à quatre par manga)
+-Ajout d’images (jusqu’à quatre par manga)
 
-Sécurité
+Sécurité : 
 
-Requêtes SQL préparées pour limiter les injections
+-Requêtes SQL préparées pour limiter les injections
 
-Protection contre les failles XSS via htmlspecialchars
+-Protection contre les failles XSS via htmlspecialchars
 
-Vérification des droits d’accès selon le rôle (utilisateur / administrateur)
+-Vérification des droits d’accès selon le rôle (utilisateur / administrateur)
 
 3. Structure du projet
 index.php                // Page d’entrée, redirige vers la page d'accueil
@@ -78,26 +79,25 @@ document/
   punkrecordsBDD.sql     // Script complet de la base de données phpMyAdmin (tables + données)
 
 4. Installation en local
-Prérequis
+Prérequis :
 
-Serveur Apache (WAMP, XAMPP, ou autre)
+-Serveur Apache (WAMP, XAMPP, ou autre)
 
-phpMyAdmin
+-phpMyAdmin
 
-Étapes
+Étapes :
 
-Télécharger le projet dans le dossier du serveur local, par exemple :
+-Télécharger le projet dans le dossier du serveur local, par exemple :
 htdocs/catalogue-mangas/
 
-Importer la base de données :
+-Importer la base de données :
 
-Ouvrir phpMyAdmin
+-Ouvrir phpMyAdmin
 
-Créer la base punkrecords
+-Créer la base punkrecords
 
-Importer le fichier punkrecordsBDD.sql
+-Importer le fichier punkrecordsBDD.sql
 
-Créer le fichier param.php à la racine (voir exemple dans le projet)
 
 5. Utilisation
 
@@ -106,26 +106,26 @@ http://localhost/catalogue-mangas/index.php
 
 Administrateur
 
-Identifiant : admin
+-Identifiant : admin
 
-Mot de passe : secureAdminPass
+-Mot de passe : secureAdminPass
 
 Utilisateur
 
-Identifiant : user2
+-Identifiant : user2
 
-Mot de passe : pass45678
+-Mot de passe : pass45678
 
 6. Compétences développées
 
-Développement d’applications web dynamiques en PHP
+-Développement d’applications web dynamiques en PHP
 
-Conception et exploitation d’une base de données phpMyAdmin
+-Conception et exploitation d’une base de données phpMyAdmin
 
-Gestion des utilisateurs, sessions et rôles
+-Gestion des utilisateurs, sessions et rôles
 
-Sécurisation d’un site (XSS, injections SQL)
+-Sécurisation d’un site (XSS, injections SQL)
 
-Structuration d’un projet web complet (PHP, HTML/CSS, SQL)
+-Structuration d’un projet web complet (PHP, HTML/CSS, SQL)
 
-Organisation d’assets (images, contenu statique)
+-Organisation d’assets (images, contenu statique)
