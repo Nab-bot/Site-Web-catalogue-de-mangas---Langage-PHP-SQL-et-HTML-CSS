@@ -57,6 +57,7 @@ Sécurité :
 -Vérification des droits d’accès selon le rôle (utilisateur / administrateur)
 
 3. Structure du projet
+```
 index.php                // Page d’entrée, redirige vers la page d'accueil
 Accueil.php              // Page d’accueil
 Catalogue.php            // Catalogue global
@@ -77,7 +78,7 @@ images/                  // Images utilisées par le site
 
 document/                
   punkrecordsBDD.sql     // Script complet de la base de données phpMyAdmin (tables + données)
-
+```
 4. Installation en local
 Prérequis :
 
