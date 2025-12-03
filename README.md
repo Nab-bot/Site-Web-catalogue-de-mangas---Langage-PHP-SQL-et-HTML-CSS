@@ -83,12 +83,10 @@ Lancer le site :
 http://localhost/catalogue-mangas/index.php
 
 Administrateur :
--Identifiant : admin
--Mot de passe : secureAdminPass
+-Identifiant : admin; Mot de passe : secureAdminPass
 
 Utilisateur :
--Identifiant : user2
--Mot de passe : pass45678
+-Identifiant : user2; Mot de passe : pass45678
 
 
 6. Compétences développées
