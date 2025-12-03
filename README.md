@@ -105,13 +105,13 @@ htdocs/catalogue-mangas/
 Lancer le site :
 http://localhost/catalogue-mangas/index.php
 
-Administrateur
+Administrateur :
 
 -Identifiant : admin
 
 -Mot de passe : secureAdminPass
 
-Utilisateur
+Utilisateur :
 
 -Identifiant : user2
 
